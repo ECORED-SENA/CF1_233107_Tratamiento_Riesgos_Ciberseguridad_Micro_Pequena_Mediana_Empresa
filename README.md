@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Fundamentos para la gestión del riesgo de ciberseguridad**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_233107_Tratamiento_Riesgos_Ciberseguridad_Micro_Pequena_Mediana_Empresa/](https://ecored-sena.github.io/CF1_233107_Tratamiento_Riesgos_Ciberseguridad_Micro_Pequena_Mediana_Empresa/)
 
 #
 
