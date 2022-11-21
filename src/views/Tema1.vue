@@ -8,10 +8,10 @@
       h1(data-aos="fade-right") Conceptos y fundamentos asociados a la gestión de la ciberseguridad
 
     .row.align-items-center.mb-4.mb-lg-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema1/img01.png', alt='')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Para entrar al mundo de la ciberseguridad es clave conocer algunos conceptos asociados que permitan entender su funcionamiento, arquitectura, implementación y utilidad.  Manejar estos conceptos permite tener un panorama claro al enfrentar diferentes escenarios, ya que cada organización cuenta con su propia implementación de las Tecnologías de la Información y la Comunicación.
         p A medida que evoluciona la ciencia la dependencia o confianza en los sistemas informáticos sigue aumentando, la tecnología se incorpora cada vez más en todo tipo de organizaciones ya sean privadas o públicas. El uso de nuevas tecnologías y la necesidad de conexión con el mundo exterior trae consigo nuevos desafíos, que obligan a las empresas a pensar en la ciberseguridad como un tema de vital importancia, considerando que: 
         .bg_01.p-4.pb-2
@@ -50,7 +50,7 @@
             figure.mb-5
               img.img-t.m-auto(src='@/assets/curso/tema1/img04.png')
             h4.text-white Seguridad de aplicaciones
-            p.text-white Garantía de que el software y dispositivos instalados en una organización se mantengan libres de amenazas. Las aplicaciones afectadas podrían generar agujeros de vulnerabilidad y dar acceso a datos importantes.
+            p.text-white Garantía de que el <em>software</em> y dispositivos instalados en una organización se mantengan libres de amenazas. Las aplicaciones afectadas podrían generar agujeros de vulnerabilidad y dar acceso a datos importantes.
           .tarjeta.bg_02.p-4
             figure.mb-5
               img.img-t.m-auto(src='@/assets/curso/tema1/img05.png')
@@ -85,7 +85,7 @@
 
     p.mb-5 Las organizaciones cuentan con uno o varios tipos de red, combinando para cumplir objetivos específicos.  Una empresa puede iniciar con una oficina pequeña y una red LAN; pero con el tiempo abrir sedes en diferentes ciudades del país y contratar redes WAN para mayor seguridad, aunque con mayores costos o utilizar el canal público creando canales virtuales de conexión con menor costo; pero que le implica apostar a esquemas de seguridad eficientes.   
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-down-right")
       .col-lg-3
         figure
           img.img-t.m-auto.img_position(src='@/assets/curso/tema1/img10.svg')
@@ -108,10 +108,10 @@
       h2 1.2 Modelo OSI
 
     .row.justify-content-center.mb-0.mb-lg-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img12.png')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El modelo de interconexión de sistemas abiertos, creado por la Organización Internacional de Normalización (ISO) proporciona a los diversos sistemas de tecnología de la informática estándares para que se comuniquen entre sí.
         p Este modelo se divide en siete capas para realizar las actividades que la red necesita, asociando a cada capa una serie de protocolos, con el propósito de abordar la complejidad que conlleva la comunicación a través de problemas sencillos.  
         p Se plantea una estructura jerarquizada en la que cada una de las capas realiza trabajos para la capa que está por encima de ella, devolviendo resultados y solicitando servicios a la capa ubicada en la parte inferior.
@@ -141,7 +141,7 @@
           .col-11.col-lg-5.mb-4.mb-lg-0
             div 
               h4 Física
-              p En esta primera capa se encuentran los dispositivos físicos encargados de transportar los datos: los cables de red (de cobre para redes LAN o de fibra óptica para el transporte de información a grandes distancias), los router para el direccionamiento de paquetes, los switch que ayudan a la agrupación de varios equipos en una misma red, y en general todos los componentes que de alguna u otra manera se encargan de llevar información de un lado al otro.
+              p En esta primera capa se encuentran los dispositivos físicos encargados de transportar los datos: los cables de red (de cobre para redes LAN o de fibra óptica para el transporte de información a grandes distancias), los <em>router</em> para el direccionamiento de paquetes, los <em>switch</em> que ayudan a la agrupación de varios equipos en una misma red, y en general todos los componentes que de alguna u otra manera se encargan de llevar información de un lado al otro.
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
@@ -154,10 +154,10 @@
               ul.lista-ul--color
                 li 
                   i.lista-ul__vineta
-                  | MAC (Media Access Control).  Conecta varios equipos de cómputo a una red con una dirección física (dirección MAC) que identifica la ubicación del equipo para el envío y la recepción.  
+                  p.m-0 MAC (<em>Media Access Control</em>).  Conecta varios equipos de cómputo a una red con una dirección física (dirección MAC) que identifica la ubicación del equipo para el envío y la recepción.  
                 li 
                   i.lista-ul__vineta
-                  | LLC (Logical Link Control).  Maneja el control de flujo de los datos de la red.   
+                  p.m-0 LLC (<em>Logical Link Control</em>).  Maneja el control de flujo de los datos de la red.   
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
@@ -165,7 +165,7 @@
           .col-11.col-lg-5.mb-4.mb-lg-0
             div
               h4 Red
-              p Garantiza que los datos lleguen a su destino aun sin que el emisor y receptor estén conectados de forma directa.  Esta labor involucra dispositivos electrónicos enrutadores (router, en inglés).  En esta capa se establece el direccionamiento IP tanto de origen como de destino, se priorizan paquetes y la toma de decisiones para dirigirlos por la ruta más eficiente.  
+              p Garantiza que los datos lleguen a su destino aun sin que el emisor y receptor estén conectados de forma directa.  Esta labor involucra dispositivos electrónicos enrutadores (<em>router</em>, en inglés).  En esta capa se establece el direccionamiento IP tanto de origen como de destino, se priorizan paquetes y la toma de decisiones para dirigirlos por la ruta más eficiente.  
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen')
@@ -188,7 +188,7 @@
           .col-11.col-lg-5.mb-4.mb-lg-0
             div
               h4 Sesión
-              p En la capa de sesión la principal responsabilidad es inicializar y terminar la conexión entre dos ordenadores.  Es esta capa la que inicia y sincroniza los equipos y realiza tareas como la de registro del log y algunas funciones de seguridad.
+              p En la capa de sesión la principal responsabilidad es inicializar y terminar la conexión entre dos ordenadores.  Es esta capa la que inicia y sincroniza los equipos y realiza tareas como la de registro del <em>log</em> y algunas funciones de seguridad.
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
@@ -226,10 +226,10 @@
       h2 1.3 Protocolo TCP/IP
 
     .row.align-items-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Hace referencia a un grupo de protocolos de red que permiten que se realice la transferencia de los datos a través de los diferentes tipos de redes, dispositivos informáticos o de Internet. El protocolo de control de transmisión TCP es el que garantiza que se establezca la conectividad y el intercambio de información entre dos dispositivos y el transporte confiable de los datos. Mientras que el protocolo de Internet IP se encarga de llevar la información a otros equipos en la red, este utiliza identificadores de cuatro octetos separados por un punto decimal, por ejemplo, 192.168.0.1.
         p Al igual que en el modelo OSI, el modelo TCP/IP (ver figura 3) propone un conjunto de capas jerarquizadas, en la misma dinámica en la que la capa inferior entrega información a la capa superior y así progresivamente se hace el control de los paquetes en cada capa dependiendo de la función que le corresponda. Específicamente se revisarán los protocolos que se encargan de realizar estas tareas en cada uno de esos niveles.
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img25.png', alt='')
       
@@ -249,7 +249,7 @@
       h5 Tabla 1.
       span <em>Modelo TCP/IP con equivalencia al modelo OSI</em>
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-right")
       .col-lg-12    
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -292,7 +292,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img29.svg')
               .col-lg-8
-                h4 Internet Protocol
+                h4 Internet <em>Protocol</em>
             p Es el núcleo de todo el modelo. Se utiliza para especificar la dirección IP determinando así, la ruta que tiene que seguir el paquete. 
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -300,7 +300,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img30.svg')
               .col-lg-8
-                h4 Internet Control Message Protocol
+                h4 Internet <em>Control Message Protocol</em>
             p Provee mensajes de diagnóstico y notificación de errores cuando fallan los datagramas IP.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -308,7 +308,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img31.svg')
               .col-lg-8
-                h4 Adress Resolution Protocol
+                h4 <em>Adress Resolution Protocol</em>
             p Ayuda al protocolo IP a guiar los datos, resolviendo la dirección de <em>hardware</em> o MAC.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -316,7 +316,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img32.svg')
               .col-lg-8
-                h4 Reverse Adress Resolution Protocol
+                h4 <em>Reverse Adress Resolution Protocol</em>
             p Lo mismo que el ARP, pero al revés, es decir, dada la MAC devuelve la IP.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -324,7 +324,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img33.svg')
               .col-lg-8
-                h4 Network Adress Translation
+                h4 <em>Network Adress Translation</em>
             p Convierte la dirección IP privada a una pública.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -332,8 +332,8 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img34.svg')
               .col-lg-8
-                h4 Rounting Information Protocol
-            p Utilizado por los <em>outer</em> para intercambiar información de las distintas redes y encaminar con mayor eficiencia los paquetes.
+                h4 <em>Routing Information Protocol</em>
+            p Utilizado por los <em>router</em> para intercambiar información de las distintas redes y encaminar con mayor eficiencia los paquetes.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
               .col-auto.mb-4 
@@ -348,7 +348,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img36.svg')
               .col-lg-8
-                h4 User Datagram Protocol
+                h4 <em>User Datagram Protocol</em>
             p Implementa una transmisión no fiable (no está exenta de errores), usada en aplicaciones de <em>streaming</em> y con actualizaciones en tiempo real.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -356,7 +356,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img37.svg')
               .col-lg-8
-                h4 Transmission Control Protocol
+                h4 <em>Transmission Control Protocol</em>
             p Establece una transmisión fiable de datos. Incluye detección de errores y formas de recuperar los datos perdidos.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -372,7 +372,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img39.svg')
               .col-lg-8
-                h4 File Transfer Protocol
+                h4 <em>File Transfer Protocol</em>
             p Transferencia interactiva de archivos.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -380,7 +380,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img40.svg')
               .col-lg-8
-                h4 Telnet
+                h4 <em>Telnet</em>
             p Iniciación de la sesión de forma remota en máquinas de la red.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -388,7 +388,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img41.svg')
               .col-lg-8
-                h4 Hypertext Transfer Protocol
+                h4 <em>Hypertext Transfer Protocol</em>
             p Transferir archivos que forman las páginas <em>web</em> de la <em>World Wide Web</em>.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -396,7 +396,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img42.svg')
               .col-lg-8
-                h4 Simple Mail Transfer Protocol
+                h4 <em>Simple Mail Transfer Protocol</em>
             p Transferencia de mensajes de correo electrónico y archivos adjuntos.
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
@@ -404,7 +404,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img43.svg')
               .col-lg-8
-                h4 Domain Name System
+                h4 <em>Domain Name System</em>
             p Resolución del nombre de un <em>host</em> a la dirección IP.
 
     p.mb-5 Ahora, observe el siguiente video sobre el modelo TCP/ICP, haciendo uso de un ejemplo: 
@@ -419,10 +419,10 @@
       h2 1.4 IPv4 e IPv6
 
     .row.justify-content-center.mb-0.mb-lg-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img44.png')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p En la actualidad casi todo dispositivo que se conecta a la red lo realiza mediante el protocolo IP versión cuatro (IPv4).  La estructura de este protocolo está formada por hasta 12 caracteres divididos por un punto en cuatro segmentos de hasta 3 caracteres, por ejemplo, la dirección IP de Google es 64.233.177.113, esta dirección es posible obtenerla gracias al sistema de nombres de dominios (DNS), que traduce un nombre de dominio a su respectiva dirección IP.  Estas direcciones IP son asignadas públicamente y permiten el acceso desde cualquier lugar del mundo.
 
     .bg_07.p-4.mb-5
@@ -450,11 +450,11 @@
     p.mb-4 El <b>direccionamiento IP de una organización es supremamente importante toda vez que ayuda a identificar cuáles serán las áreas en la que se deben aplicar permisos o restricciones</b>, por ejemplo, el bloqueo o acceso controlado de las direcciones IP de los servidores de datos. También son útiles para realizar el monitoreo de la red e identificar posibles fallas de seguridad, entre otras funcionalidades.
 
     .row.justify-content-center.align-items-center.mb-0.mb-lg-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p En cuanto al protocolo de Internet versión seis (IPv6), una mejora de su antecesor, el protocolo IP versión cuatro, pretende mejorar la escasez de direcciones que se presentan con la versión anterior. En Colombia se promueve su implementación desde 2020 y su adopción es importante ya que contribuye con la transformación digital. Incrementar el número de direcciones IP aumentará la cantidad de dispositivos electrónicos conectados a la red, abriendo la posibilidad a nuevos servicios, aplicaciones y plataformas, también beneficiará el desarrollo de ciudades inteligentes, la implementación de Internet de las cosas, el uso de <em>blockchain</em> y redes de sensores, entre muchas más aplicaciones.
         .bg_10.p-4
           p.m-0 El gran número de direcciones que se pueden albergar radica en que se pasa de una estructura de 32 <em>bits</em> a una de 128 <em>bits</em>, cuatro veces superior a la versión número cuatro. <b>El formato de texto de la dirección IPv6 es xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx, donde cada x corresponde a un dígito hexadecimal que representa 4 <em>bits</em></b>, que si bien tiene una estructura más difícil de entender, generará múltiples beneficios.
-      .col-lg-4.mb-4.mb-lg-3
+      .col-lg-4.mb-4.mb-lg-3(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img45.png')
 
@@ -473,7 +473,7 @@
       h5 Tabla 2.
       span <em>Diferencias entre el protocolo IPv4 e IPv6</em>
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-right")
       .col-lg-8   
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -515,10 +515,10 @@
     .bg_11.p-4.pt-5.mb-5
       p.mb-5 La adopción de este protocolo tiene múltiples ventajas dentro de las que destacan: 
       .row.justify-content-center.align-items-center
-        .col-lg-3
+        .col-lg-3(data-aos="fade-right")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema1/img47.svg')
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           ul.lista-ul--color
             li 
               i.fas.fa-circle
@@ -541,10 +541,10 @@
       h2 1.5 Enrutamiento IP
 
     .row.justify-content-center.align-items-center.mb-0.mb-lg-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img48.png')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El enrutamiento que realizan las redes de datos consiste en la selección óptima de una ruta de una o múltiples redes.  En general los conceptos de enrutamiento son aplicables a cualquier tipo de red, que pueden ir desde redes telefónicas hasta la analogía con el transporte público.  En cuanto a la red de Internet se realiza un enrutamiento teniendo en cuenta que los paquetes o datos del protocolo de Internet IP viajan desde su origen hasta su objetivo final, la selección de estas rutas es posible gracias a dispositivos de <em>hardware</em> que comúnmente conocemos como <em>router</em> o enrutadores.
         p Imagine tratando de llegar a su lugar de trabajo identificando posibles rutas.  Es la ruta más corta en cuanto a recorrido, pero que normalmente presenta trancones y tráfico lento, y la ruta rápida en la que, aunque el recorrido es mucho mayor, avanza a mayor velocidad.  Tal como se muestra en la figura 4 los <em>router</em> deben tomar ese tipo de decisiones, determinando cuál camino será el más eficiente para llegar al destino y realizando el monitoreo permanente de la red.
 
@@ -561,17 +561,17 @@
                 img.img-t.m-auto(src='@/assets/curso/tema1/img50.svg', alt='')
 
     .row.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Los enrutadores deben guardar y actualizar periódicamente la tabla de enrutamiento, el servicio de enrutamiento de cada dispositivo se actualiza con las rutas que logre identificar.  Estas tablas, leídas antes del reenvío de paquetes a la red del área local se encargan de realizar la identificación de la dirección IP de las redes conocidas por el sistema, que incluye la red del área local que está predeterminada. También enumeran las diferentes direcciones IP de un sistema de portal para las redes conocidas (los portales son sistemas que están preparados para recibir datos de salida y hacer el reenvío más allá de la red del área local).
         p El administrador de la red es el encargado de la configuración de rutas estáticas que se realizan manualmente dado que no pueden actualizarse automáticamente, como sí lo haría el protocolo de <em>routing</em> dinámico.  En caso de cambiar la topología de la red se debe configurar nuevamente de forma manual.
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img51.svg', alt='')
 
-    p.mb-5 El enrutamiento estático ofrece tanto ventajas como desventajas comparado con el router dinámico.
+    p.mb-5 El enrutamiento estático ofrece tanto ventajas como desventajas comparado con el <em>router</em> dinámico.
 
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .bg_13.p-4.px-5
           .row
             .col-auto.mb-4 
@@ -595,7 +595,7 @@
                   i.fas.fa-check-circle
                   |	El consumo del ancho de banda es mucho menor que los protocolos utilizados para el routing dinámico, ya que no es necesario utilizar ciclos de CPU para el cálculo y la comunicación de rutas.
 
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .bg_13.p-4.px-5
           .row
             .col-auto.mb-4 
@@ -630,7 +630,7 @@
       h5 Figura 5.
       span <em>Protocolos de routing, objetivos y componentes</em>
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down-right")
       .col-lg-12
         .bg_14.p-4
           .row.justify-content-evenly
@@ -694,10 +694,10 @@
     p.mb-5 Los protocolos de <em>routing</em> establecerán el mejor camino hacia la red destino, posteriormente esa ruta o camino se dispone en la tabla de <em>routing</em> y si no existe otra ruta con una distancia administrativa mucho menor, se instalará en la tabla de <em>routing</em>.
 
     .row.justify-content-center.mb-4
-      .col-lg-3
+      .col-lg-3(data-aos="fade-right")
         figure
           img.img-t.m-auto.img_position(src='@/assets/curso/tema1/img63.svg')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .bg_03.p-4.pt-5
           .row.justify-content-center
             .col-lg-10.pt-4
@@ -707,30 +707,30 @@
     Separador
 
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-      h2 1.6 Arquitecturas Cloud y On Premise
+      h2 1.6 Arquitecturas <em>Cloud y On Premise</em>
 
     .row.justify-content-center.mb-0.mb-lg-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img64.png')
-      .col-lg-8
-        p Se inicia definiendo el término <em><b>On Premise</b></em> que hace referencia a la implementación de una infraestructura tecnológica que puede incluir servidores de aplicaciones, bases de datos, correo electrónico, instalación de software, entre otros. Este tipo de arquitecturas requieren una infraestructura compleja en la que se debe pensar en servidores de respaldo, energía de respaldo, copias de seguridad y un equipo especializado para el mantenimiento y la administración.
-        p Las arquitecturas On Premise siguen siendo comunes en las empresas, ya que existen muchos software que fueron desarrollados pensando en este tipo de despliegues, en el que no era necesario tener una conexión a Internet para que el software funcionará correctamente.
+      .col-lg-8(data-aos="fade-left")
+        p Se inicia definiendo el término <em><b>On Premise</b></em> que hace referencia a la implementación de una infraestructura tecnológica que puede incluir servidores de aplicaciones, bases de datos, correo electrónico, instalación de <em>software</em>, entre otros. Este tipo de arquitecturas requieren una infraestructura compleja en la que se debe pensar en servidores de respaldo, energía de respaldo, copias de seguridad y un equipo especializado para el mantenimiento y la administración.
+        p Las arquitecturas <em>On Premise</em> siguen siendo comunes en las empresas, ya que existen muchos <em>software</em> que fueron desarrollados pensando en este tipo de despliegues, en el que no era necesario tener una conexión a Internet para que el <em>software</em> funcionará correctamente.
 
     p.mb-4 El hecho de que las implementaciones estén pensadas solamente para funcionar dentro de la empresa genera inconvenientes como:
 
     .row.mb-2.mb-lg-5
-      .col-auto.mb-4.mb-lg-0
+      .col-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img65.svg')
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         p.mb-4.mt-2 Manipulación indebida y daños por parte de personal no calificado, y el contratarlo implica mayores costos para la organización.
         p El acceso a la información que solo es posible directamente desde las oficinas.
 
-    p En cuanto a las arquitecturas tipo Cloud y gracias a la evolución de Internet hoy se puede contar con implementaciones que inicialmente se pensaron para trabajar de manera local y migrar a arquitecturas de tipo nube, que combinan varios componentes tecnológicos que gracias a la tecnología denominada virtualización se agrupan y hacen posible compartirlos a través de la red.
+    p En cuanto a las arquitecturas tipo <em>Cloud</em> y gracias a la evolución de Internet hoy se puede contar con implementaciones que inicialmente se pensaron para trabajar de manera local y migrar a arquitecturas de tipo nube, que combinan varios componentes tecnológicos que gracias a la tecnología denominada virtualización se agrupan y hacen posible compartirlos a través de la red.
     p.mb-5 Dentro de los componentes que incluye la arquitectura de la nube figuran los siguientes:
 
-    .row.mb-4.mb-md-0.mb-lg-5
+    .row.mb-4.mb-md-0.mb-lg-5(data-aos="fade-left")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -776,10 +776,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
 
     .row.align-items-center.mb-5
-      .col-lg-2.mb-4.mb-lg-0
+      .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
         .bg_17.px-4
           img.img-t.m-auto(src='@/assets/curso/tema1/img71.svg')
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         p.m-0 Ya sea que se enfrente a una arquitectura de implementación local, una arquitectura en la nube o un despliegue híbrido siempre se deberá tener en cuenta una metodología para la implementación de políticas de ciberseguridad, entendiendo las características propias de cada una de las arquitecturas.  Se puede tener la mejor infraestructura, pero sin procedimientos, permisos y restricciones claramente definidos a través de una buena metodología, puesto que podrían enfrentar serios problemas en la integridad de la información.
 
     p.mb-4 Revise ahora algunos elementos clave a considerar en cuanto a costos y seguridad para la implementación de  arquitecturas tecnológicas:
@@ -794,10 +794,10 @@
       h2 1.7 Vulnerabilidad, amenaza y riesgo
 
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img72.png')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Hoy en día es prioritaria la seguridad de los activos informáticos para todas las empresas, toda vez que cuando los sistemas son atacados pueden sufrir consecuencias lamentables: pérdida de información, suspensión del servicio, mala imagen ante los clientes, hasta el pago de sanciones económicas por no proteger correctamente la información.
         p La ciberseguridad, entonces, se convierte en una necesidad prioritaria para aquellas empresas que quieran obtener en el sector donde operan las garantías para blindar sus activos informáticos y por supuesto, la información.
         p En ciberseguridad se habla de tres conceptos importantes: amenazas, vulnerabilidades y riesgos, términos que para la mayoría de las personas no son del todo claros y suelen presentar confusiones.  
@@ -809,7 +809,7 @@
       span <em>Riesgo, amenaza y vulnerabilidad</em>
     
     .bg_18.px-4.mb-5.d-none.d-lg-block
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right")
         .col-lg-4
           .bg_19.p-4
             h3.m-0.text-center.text-white Ley 1523 de 2012
@@ -847,7 +847,7 @@
             p.m-0.text-center Predisposición a sufrir pérdidas o daños de los seres humanos y sus medios de subsistencia, y sistemas físicos, sociales, económicos y de apoyo tras ser afectados por eventos físicos peligrosos.
 
     .bg_18.px-4.mb-5.d-lg-none.d-md-block
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right")
         .col-lg-4
           .bg_19.p-4
             h3.m-0.text-center.text-white Ley 1523 de 2012
@@ -889,18 +889,18 @@
               p.m-0.text-center Predisposición a sufrir pérdidas o daños de los seres humanos y sus medios de subsistencia, y sistemas físicos, sociales, económicos y de apoyo tras ser afectados por eventos físicos peligrosos.
 
     .row.align-items-center.mb-5.pt-5
-      .col-lg-8.order-last.order-lg-first
+      .col-lg-8.order-last.order-lg-first(data-aos="fade-right")
         p En sistemas informáticos, la <b>vulnerabilidad</b> se entiende como la incapacidad de un sistema para protegerse permitiendo ser atacado y recibiendo daño. Estas debilidades en los sistemas son ocasionadas normalmente por no contar con una eficiente protección ante amenazas externas, el no realizar actualizaciones periódicas, posibles fallos en la programación, entre otras causas.
         p A estas vulnerabilidades se les denomina agujeros de seguridad y aunque tienen la ventaja de que una vez descubierta la fall, se pueden solucionar, también dejan los datos y sistemas de una empresa en riesgo, comprometiendo la integridad, privacidad y disponibilidad de la información.  Los huecos de seguridad exponen los sistemas a diversas amenazas que aumentan el riesgo de que se produzcan ataques en cualquier momento, enfrentando a las empresas a complejas situaciones.        
-      .col-lg-4.mb-4.mb-lg-0.order-first.order-lg-last
+      .col-lg-4.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img77.png')    
 
     .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img78.svg')
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         p Uno de los objetivos principales de la ciberseguridad consiste en lograr la identificación de las debilidades que puedan existir, aplicando los correctivos necesarios para que desaparezcan.
         p Las <b>amenazas</b> informáticas hacen referencia a eventos o situaciones de seguridad que pueden afectar un sistema en estado de vulnerabilidad y sufrir daños. Los sistemas informáticos regularmente están expuestos a amenazas que vienen de ataques externos como la denegación del servicio, inyecciones SQL, <em>malware, spyware,</em> crimen organizado, entre otros, vea en qué consisten a través del siguiente video:
 
@@ -947,10 +947,10 @@
       span <em>Representación del riesgo</em>
 
     .row
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img84.svg')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p.mb-4 El riesgo se determina, entonces, con la alineación de las amenazas, una vulnerabilidad y el dispositivo o sistema informático, por ejemplo, un ordenador que no cuente con protecciones mínimas como antivirus o un sistema operativo actualizado es un equipo que tiene vulnerabilidades, está expuesto a amenazas como <em>malware</em> que de llevarse a cabo podría instalar virus que encripten información y cobren luego por devolverla.  Si además este equipo presenta la vulnerabilidad de no contar con usuario y contraseña para el ingreso, está amenazado por cualquier empleado de la organización que pueda extraer información importante como, por ejemplo, de tipo financiero.
         .row.mb-4
           .col-lg-3
