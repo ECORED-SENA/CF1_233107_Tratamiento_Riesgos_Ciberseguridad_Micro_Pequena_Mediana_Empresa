@@ -172,6 +172,8 @@
   background-repeat: no-repeat
   @media (max-width: $bp-max-md)
     background-size: cover
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: cover
 
 .bg_15
   background-color: #FFFFFF
@@ -192,16 +194,18 @@
   border-bottom: 3px solid!important
   color: #583AE2!important
 
-.tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido 
+.tarjeta-flip.color-primario .tarjeta-flip__contenido 
     background-color: #D5CEF8
     @media (max-width: $bp-max-md)
+      height: 333px
+    @media (max-width: $bp-max-xs)
       height: 350px
 
 .tarjeta-flip__img
   background-size: 100% auto
   background-repeat: no-repeat
   @media (max-width: $bp-max-md)
-    height: 305px
+    height: 333px
   @media (max-width: $bp-max-xs)
     height: 350px
 
@@ -252,7 +256,7 @@
   background-image: url("../assets/curso/tema1/img86.svg")
   background-repeat: no-repeat
   height: 111%
-  width: 137%
+  width: 146%
   margin-left: -23%
   @media (max-width: $bp-max-md)
     background-image: none
@@ -261,6 +265,7 @@
     margin-top: 5%
     height: 100%
     width: 100%
+  
 
 .bg_23
   background-image: url("../assets/curso/tema1/img87.svg")
@@ -491,6 +496,8 @@
   background-repeat: no-repeat
   @media (max-width: $bp-max-md)
     background-size: cover
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: cover
 
 .bg_38
   position: relative
@@ -517,6 +524,8 @@
   @media (max-width: $bp-max-xs)
     background-image: url("../assets/curso/tema2/img35-3.svg")!important
     width: 370px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 520px
     
 .bg_39-1
   background-image: url("../assets/curso/tema2/img35-1.svg")
@@ -528,6 +537,8 @@
   @media (max-width: $bp-max-xs)
     background-image: url("../assets/curso/tema2/img35-4.svg")!important
     width: 370px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 555px
   
 
 .bg_40
@@ -542,6 +553,8 @@
     height: 690px!important 
   @media (max-width: $bp-max-md)
     height: 700px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 680px
 
 .bg_42
   position: relative
@@ -605,13 +618,14 @@
   background-image: url("../assets/curso/tema2/img67.svg")
   background-repeat: no-repeat
   border-radius: 10px
-  height: 316px
-  
 
 .tarjeta-flip.color-acento-botones .tarjeta-flip__contenido 
     background-color: #DAF1F5
+    height: 310px
     @media (max-width: $bp-max-md)
-      height: 350px
+      height: 305px
+    @media (max-width: $bp-max-xs)
+      height: 316px
 
 .tarjeta-flip.color-acento-botones .tarjeta-flip__img 
     background-color: transparent
@@ -627,6 +641,8 @@
     border-radius: 10px
     background-color: #D5CEF8
     height: 362px
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      height: 375px
 
 .bg_48
   background-color: #F3F1FF
@@ -719,3 +735,60 @@
   background-color: #DAF1F5
   border-radius: 10px
   height: 164px
+  @media (max-width: $bp-max-xs)
+    height: 245px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 190px
+
+.color1-1
+  background-color: #DAF1F5
+  border-radius: 10px
+  height: 164px
+
+.fa-check:before     
+    color: #45BBCC    
+
+.acordion__accion__btn--b 
+    border: 1px solid #636363
+    color: #636363
+
+.tarjeta--azul.acordion__activo .acordion__accion__btn--b 
+    border: 1px solid #45BBCC
+    color: #45BBCC
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    @media (max-width: $bp-max-xs)
+      width: 35px
+      height: 35px
+
+.t_btn
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    @media (max-width: $bp-max-xs)
+      width: 25px
+      height: 25px
+
+.slyder-f__btn i
+    width: 50px
+    height: 50px    
+    padding: 14px 17px
+    @media (max-width: $bp-max-xs)
+      width: 35px
+      height: 35px    
+      padding: 8px 12px
+      font-size: 1.2rem
+
+.m_tabla2
+  min-width: 800px
+  @media (max-width: $bp-max-md)
+    min-width: 820px!important
+
+.m_tabla3
+  min-width: 1220px
+  @media (max-width: $bp-max-md)
+    min-width: 1240px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    min-width: 1240px!important

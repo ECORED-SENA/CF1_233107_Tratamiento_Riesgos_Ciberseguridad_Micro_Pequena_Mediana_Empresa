@@ -16,12 +16,12 @@
         p A medida que evoluciona la ciencia la dependencia o confianza en los sistemas informáticos sigue aumentando, la tecnología se incorpora cada vez más en todo tipo de organizaciones ya sean privadas o públicas. El uso de nuevas tecnologías y la necesidad de conexión con el mundo exterior trae consigo nuevos desafíos, que obligan a las empresas a pensar en la ciberseguridad como un tema de vital importancia, considerando que: 
         .bg_01.p-4.pb-2
           ul.lista-ul--color
+            li
+              i.fas.fa-check
+              p.m-0.text-bold La información que se maneja dentro de las empresas es el activo más importante.
             li 
               i.fas.fa-check
-              | La información que se maneja dentro de las empresas es el activo más importante.
-            li 
-              i.fas.fa-check
-              | Las organizaciones están sometidas a la ley y esta las obliga a salvaguardar la información de sus usuarios.
+              p.m-0.text-bold Las organizaciones están sometidas a la ley y esta las obliga a salvaguardar la información de sus usuarios.
 
     p De manera tal que los expertos en temas de ciberseguridad cada día son más demandados con mayores posibilidades laborales.  Las empresas han entendido que la prevención es fundamental en la protección de sus activos informáticos, logrando así evitar vulnerabilidades que puedan desatar grandes daños en la organización, lo que hace que cada vez más se requiera tener profesionales con estas capacidades.
     p.mb-5 Observe la siguiente figura en un primer acercamiento a la definición de ciberseguridad:
@@ -97,10 +97,10 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Instalación de <em>firewall</em>, ya sean físicos o de <em>software</em> como los instalados en las computadoras.
+                  p.m-0.text-bold Instalación de <em>firewall</em>, ya sean físicos o de <em>software</em> como los instalados en las computadoras.
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Utilización de <em>router</em> avanzados con capacidad de bloqueos de paquetes sospechosos.
+                  p.m-0.text-bold Utilización de <em>router</em> avanzados con capacidad de bloqueos de paquetes sospechosos.
 
     Separador
 
@@ -128,7 +128,7 @@
           figure(data-aos="fade-down-right")
             img.img-t.m-auto.d-none.d-lg-block(src='@/assets/curso/tema1/img13.svg', alt='')
     .row.justify-content-center.mb-4
-      .col-8
+      .col-12.col-md-8
         .bg_05.p-4.d-lg-none.d-md-block
           figure(data-aos="fade-down-right")
             img.img-t.m-auto.d-lg-none.d-md-block(src='@/assets/curso/tema1/img15.svg', alt='')
@@ -153,11 +153,11 @@
               p Presenta dos subcapas: 
               ul.lista-ul--color
                 li 
-                  i.lista-ul__vineta
-                  p.m-0 MAC (<em>Media Access Control</em>).  Conecta varios equipos de cómputo a una red con una dirección física (dirección MAC) que identifica la ubicación del equipo para el envío y la recepción.  
+                  i.fas.fa-angle-right
+                  p.m-0 <b>MAC (<em>Media Access Control</em>).</b>  Conecta varios equipos de cómputo a una red con una dirección física (dirección MAC) que identifica la ubicación del equipo para el envío y la recepción.  
                 li 
-                  i.lista-ul__vineta
-                  p.m-0 LLC (<em>Logical Link Control</em>).  Maneja el control de flujo de los datos de la red.   
+                  i.fas.fa-angle-right
+                  p.m-0 <b>LLC (<em>Logical Link Control</em>).</b>  Maneja el control de flujo de los datos de la red.   
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
@@ -176,11 +176,11 @@
               p Nivel responsable de la confiabilidad del transporte, a través de dos protocolos:
               ul.lista-ul--color
                 li 
-                  i.lista-ul__vineta
-                  | TCP: establece una sesión entre dos ordenadores, garantizando fidelidad con la creación de una secuencia de datos para la entrega. Es un protocolo lento que verifica que la recepción de los paquetes esté completa y solicita el reenvío en caso de faltantes. 
+                  i.fas.fa-angle-right
+                  p <b>TCP:</b> establece una sesión entre dos ordenadores, garantizando fidelidad con la creación de una secuencia de datos para la entrega. Es un protocolo lento que verifica que la recepción de los paquetes esté completa y solicita el reenvío en caso de faltantes. 
                 li 
-                  i.lista-ul__vineta
-                  | UDP: se ofrece sin conexión y sin establecer sesión entre ordenadores.  Es mucho más rápido porque solo entrega información en el menor tiempo posible, sin verificar completitud.
+                  i.fas.fa-angle-right
+                  p <b>UDP:</b> se ofrece sin conexión y sin establecer sesión entre ordenadores.  Es mucho más rápido porque solo entrega información en el menor tiempo posible, sin verificar completitud.
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
@@ -237,7 +237,7 @@
       h5 Figura 3.
       span <em>Modelo TCP/IP</em>
     
-    .bg_08.p-5.mb-5
+    .bg_08.p-2.p-lg-5.mb-5
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
@@ -284,14 +284,14 @@
     p.mb-5 A continuación se definen algunos de los protocolos más importantes usados en el modelo TCP/IP.       
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-12.col-md-6
+      .col-lg-12.col-md-8
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
           .tarjeta.bg_09.p-4.pt-5
             .row.align-items-center
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img29.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 Internet <em>Protocol</em>
             p Es el núcleo de todo el modelo. Se utiliza para especificar la dirección IP determinando así, la ruta que tiene que seguir el paquete. 
           .tarjeta.bg_09.p-4.pt-5
@@ -299,7 +299,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img30.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 Internet <em>Control Message Protocol</em>
             p Provee mensajes de diagnóstico y notificación de errores cuando fallan los datagramas IP.
           .tarjeta.bg_09.p-4.pt-5
@@ -307,7 +307,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img31.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Adress Resolution Protocol</em>
             p Ayuda al protocolo IP a guiar los datos, resolviendo la dirección de <em>hardware</em> o MAC.
           .tarjeta.bg_09.p-4.pt-5
@@ -315,7 +315,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img32.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Reverse Adress Resolution Protocol</em>
             p Lo mismo que el ARP, pero al revés, es decir, dada la MAC devuelve la IP.
           .tarjeta.bg_09.p-4.pt-5
@@ -323,7 +323,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img33.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Network Adress Translation</em>
             p Convierte la dirección IP privada a una pública.
           .tarjeta.bg_09.p-4.pt-5
@@ -331,7 +331,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img34.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Routing Information Protocol</em>
             p Utilizado por los <em>router</em> para intercambiar información de las distintas redes y encaminar con mayor eficiencia los paquetes.
           .tarjeta.bg_09.p-4.pt-5
@@ -339,7 +339,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img35.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 Capa de transporte
             p Garantiza que los paquetes lleguen sin errores y en secuencia, uno después de otro.
           .tarjeta.bg_09.p-4.pt-5
@@ -347,7 +347,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img36.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>User Datagram Protocol</em>
             p Implementa una transmisión no fiable (no está exenta de errores), usada en aplicaciones de <em>streaming</em> y con actualizaciones en tiempo real.
           .tarjeta.bg_09.p-4.pt-5
@@ -355,7 +355,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img37.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Transmission Control Protocol</em>
             p Establece una transmisión fiable de datos. Incluye detección de errores y formas de recuperar los datos perdidos.
           .tarjeta.bg_09.p-4.pt-5
@@ -363,7 +363,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img38.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 Capa de aplicación
             p Proporciona servicios de red que conectan la interfaz con el sistema operativo para que el usuario interactúe con la máquina (enviar correos, descargar información, etc.).
           .tarjeta.bg_09.p-4.pt-5
@@ -371,7 +371,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img39.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>File Transfer Protocol</em>
             p Transferencia interactiva de archivos.
           .tarjeta.bg_09.p-4.pt-5
@@ -379,7 +379,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img40.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Telnet</em>
             p Iniciación de la sesión de forma remota en máquinas de la red.
           .tarjeta.bg_09.p-4.pt-5
@@ -387,7 +387,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img41.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Hypertext Transfer Protocol</em>
             p Transferir archivos que forman las páginas <em>web</em> de la <em>World Wide Web</em>.
           .tarjeta.bg_09.p-4.pt-5
@@ -395,7 +395,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img42.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Simple Mail Transfer Protocol</em>
             p Transferencia de mensajes de correo electrónico y archivos adjuntos.
           .tarjeta.bg_09.p-4.pt-5
@@ -403,7 +403,7 @@
               .col-auto.mb-4 
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img43.svg')
-              .col-lg-8
+              .col-lg-8.col-xl-7.col-xxl-8
                 h4 <em>Domain Name System</em>
             p Resolución del nombre de un <em>host</em> a la dirección IP.
 
@@ -474,9 +474,9 @@
       span <em>Diferencias entre el protocolo IPv4 e IPv6</em>
 
     .row.justify-content-center(data-aos="fade-down-right")
-      .col-lg-8   
+      .col-lg-8.col-xl-10.col-xxl-8   
         .tabla-a.color-acento-contenido.mb-5 
-          table
+          table.m_tabla2
             thead
               tr.bg_color1
                 td.h4.text-center(colspan="3") Característica
@@ -554,11 +554,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bg_12.p-5
+        .bg_12.p-2.p-lg-5
           .row.justify-content-center
             .col-lg-12
               figure(data-aos="fade-down-right")
-                img.img-t.m-auto(src='@/assets/curso/tema1/img50.svg', alt='')
+                img.img-t.m-auto(src='@/assets/curso/tema1/img50.png', alt='')
 
     .row.mb-5
       .col-lg-8(data-aos="fade-right")
@@ -732,7 +732,7 @@
 
     .row.mb-4.mb-md-0.mb-lg-5(data-aos="fade-left")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img66.svg')})`}")
@@ -742,7 +742,7 @@
               p.text-center Herramienta utilizada por el cliente o el dispositivo para acceder a la nube.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img67.svg')})`}")
             .tarjeta-flip__contenido.p-5.p-lg-4.p-xl-3
@@ -751,7 +751,7 @@
               p.text-center Tiene que ver con el despliegue de servidores y el almacenamiento de información.
 
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img68.svg')})`}")
             .tarjeta-flip__contenido.p-5.p-lg-4.p-xl-3
@@ -759,8 +759,8 @@
               h4.text-center Modelo de implementación basado en la nube
               p.text-center Pueden ser implementaciones completamente en la nube, soluciones híbridas o de nube privada.
 
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+      .col-sm-6.col-xl-3.mb-md-5.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img69.svg')})`}")
             .tarjeta-flip__contenido.p-5.p-lg-4.p-xl-3
@@ -947,20 +947,20 @@
       span <em>Representación del riesgo</em>
 
     .row
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.col-xl-4.col-xxl-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img84.svg')
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-7.col-xl-8.col-xxl-7(data-aos="fade-left")
         p.mb-4 El riesgo se determina, entonces, con la alineación de las amenazas, una vulnerabilidad y el dispositivo o sistema informático, por ejemplo, un ordenador que no cuente con protecciones mínimas como antivirus o un sistema operativo actualizado es un equipo que tiene vulnerabilidades, está expuesto a amenazas como <em>malware</em> que de llevarse a cabo podría instalar virus que encripten información y cobren luego por devolverla.  Si además este equipo presenta la vulnerabilidad de no contar con usuario y contraseña para el ingreso, está amenazado por cualquier empleado de la organización que pueda extraer información importante como, por ejemplo, de tipo financiero.
         .row.mb-4
           .col-lg-3
             figure
               img.img-t.m-auto.img_position(src='@/assets/curso/tema1/img85.svg')
-          .col-lg-8
+          .col-lg-8.col-xl-9.col-xxl-8
             .bg_22.p-4.pt-5
               .row.justify-content-center
-                .col-lg-9
-                  p.ms-4 Las amenazas siempre van a existir, y en cuanto a las vulnerabilidades lo que se debe hacer es minimizarlas al máximo. Llámese sistema de información, dispositivos de red o el usuario final, si se evita la alineación de estos elementos, la probabilidad del riesgo disminuye.
+                .col-lg-9.col-xl-8.col-xxl-9
+                  p Las amenazas siempre van a existir, y en cuanto a las vulnerabilidades lo que se debe hacer es minimizarlas al máximo. Llámese sistema de información, dispositivos de red o el usuario final, si se evita la alineación de estos elementos, la probabilidad del riesgo disminuye.
 
 
 </template>

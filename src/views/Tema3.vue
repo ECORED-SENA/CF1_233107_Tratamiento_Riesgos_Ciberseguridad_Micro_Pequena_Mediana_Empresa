@@ -78,7 +78,7 @@
     p.mb-5 A continuación se presentan las fases de recuperación de la seguridad propuestas por la metodología Magerit: 
 
     .bg_51.p-4.mb-5
-      SlyderA(tipo="b")(data-aos="fade-right")
+      SlyderA.t_btn(tipo="b")(data-aos="fade-right")
         .row.justify-content-center.align-items-center
           .col-11.col-lg-5.mb-4.mb-md-0
             h4.mb-4 Análisis y gestión de riesgos
@@ -246,8 +246,8 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/tema3/img22.svg' alt='AvatarTop')
-          .tarjeta.color1
-            .p-4.pt-5              
+          .tarjeta.color1-1
+            .p-4.pt-lg-5.pt-md-5             
               p En su aspecto dinámico es el mecanismo obligado que transforma una amenaza en una agresión materializada sobre un activo.
 
     .row.align-items-center.mb-2
