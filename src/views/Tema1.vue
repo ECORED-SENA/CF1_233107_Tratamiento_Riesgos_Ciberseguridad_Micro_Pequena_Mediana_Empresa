@@ -432,7 +432,7 @@
 
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/eU9I0xE_5Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
              
     p Por otro lado, cada máquina privada debe tener una dirección IP propia que le permita la identificación única dentro de una red local, identificando cada ordenador de modo que puedan llegar a este los paquetes, por lo que no pueden existir direcciones IP con la misma numeración.
 
@@ -443,7 +443,7 @@
 
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/KxpguIjDXvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p Como se aprecia en el video esa dirección IP es asignada mediante adaptador físico inalámbrico wifi.  En caso de estar conectado por medio del cable, el adaptador físico sería el <em>ethernet</em>.
 
@@ -465,7 +465,7 @@
 
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/beKW7owSgdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5 La siguiente tabla diferencia los dos protocolos en algunas de sus características principales: 
 
